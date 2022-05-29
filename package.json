@@ -1,0 +1,42 @@
+{
+  "sideEffects": false,
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.9.3",
+    "autoprefixer": "^10.3.1",
+    "axios": "^0.21",
+    "babel-jest": "^27.0.6",
+    "bootstrap": "^5.1.0",
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "core-js": "^3.15.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.2.0",
+    "decimal.js": "^10.3.1",
+    "deepmerge": "^4.2.2",
+    "i18n-iso-countries": "^6.8.0",
+    "jest": "^27.0.6",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "node-sass": "^6.0.1",
+    "pdfmake": "^0.2.0",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.1.14",
+    "postcss-loader": "^6.1.1",
+    "regenerator-runtime": "^0.13.7",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "~1.32",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1"
+  }
+}
